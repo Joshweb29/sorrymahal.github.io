@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "myFont";
+  src: url("Champagne & Limousines Bold.ttf");
+}
+.texts {
+				font-family: myFont;
+				font-size: 13pt;
+				animation: opa 0.7s ease-in-out;
+}
+
+body {
+				background-color: blanchedalmond;
+				text-align: center;
+				align-content: center;
+}
+.body {
+				padding: 0.5rem;
+				position: relative;
+}
+.main {
+			 text-align: center;
+			 background-color: #FBF7D5;
+			 border-radius: 20px;
+			 min-height: 100vh;
+			 padding: 1rem;
+}
+.ye {
+				text-align: center;
+				background-color: #F3D8D1;
+				border-radius: 20px;
+				padding: 2rem;
+}
+.head {
+				font-family: myFont;
+				font-size: 15pt;
+				animation: opa 0.6s ease-in-out;
+}
+/* keyframe */
+@keyframes opa {
+				0% {
+								opacity: 0%;
+				}
+				100% {
+								opacity: 100%;
+				}
+}
